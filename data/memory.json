@@ -1,0 +1,93 @@
+[
+  {
+    "id": "215a48b7-7163-418c-905a-a80c3e32c29c",
+    "vendor": "Supplier GmbH",
+    "type": "CORRECTION",
+    "key": "Leistungsdatum found in rawText",
+    "value": {
+      "field": "serviceDate",
+      "to": "2024-01-01"
+    },
+    "confidence": 1,
+    "usage": 6,
+    "updatedAt": "2025-12-26T17:16:37.228Z"
+  },
+  {
+    "id": "a4625b5c-4b1a-4e19-a987-0154c11491b2",
+    "vendor": "Supplier GmbH",
+    "type": "CORRECTION",
+    "key": "Only matching PO for vendor within 30 days and matching item WIDGET-002",
+    "value": {
+      "field": "poNumber",
+      "to": "PO-A-051"
+    },
+    "confidence": 0.7999999999999999,
+    "usage": 3,
+    "updatedAt": "2025-12-26T17:16:37.227Z"
+  },
+  {
+    "id": "09038ab5-54f1-45ed-afc8-294a3f002671",
+    "vendor": "Parts AG",
+    "type": "CORRECTION",
+    "key": "Raw text indicates totals already include VAT; extractor overestimated",
+    "value": {
+      "field": "grossTotal",
+      "to": 2380
+    },
+    "confidence": 0.7999999999999999,
+    "usage": 3,
+    "updatedAt": "2025-12-26T17:16:37.234Z"
+  },
+  {
+    "id": "03b0fe38-f03e-4884-bf24-6d233b414dca",
+    "vendor": "Parts AG",
+    "type": "CORRECTION",
+    "key": "Recalculated from grossTotal and taxRate",
+    "value": {
+      "field": "taxTotal",
+      "to": 380
+    },
+    "confidence": 0.7999999999999999,
+    "usage": 3,
+    "updatedAt": "2025-12-26T17:16:37.235Z"
+  },
+  {
+    "id": "f8a04d0e-c5a3-46f6-88db-f75e62a7dbd9",
+    "vendor": "Parts AG",
+    "type": "CORRECTION",
+    "key": "Currency appears in rawText",
+    "value": {
+      "field": "currency",
+      "to": "EUR"
+    },
+    "confidence": 0.7999999999999999,
+    "usage": 3,
+    "updatedAt": "2025-12-26T17:16:37.240Z"
+  },
+  {
+    "id": "6f18dbca-8c7a-4367-a568-8a142cf86b13",
+    "vendor": "Freight & Co",
+    "type": "CORRECTION",
+    "key": "Skonto terms in rawText",
+    "value": {
+      "field": "discountTerms",
+      "to": "2% Skonto within 10 days"
+    },
+    "confidence": 0.7999999999999999,
+    "usage": 3,
+    "updatedAt": "2025-12-26T17:16:37.246Z"
+  },
+  {
+    "id": "69373bf2-99fc-42ab-84e2-887dcff19127",
+    "vendor": "Freight & Co",
+    "type": "CORRECTION",
+    "key": "Vendor uses descriptions (Seefracht/Shipping) that map to FREIGHT",
+    "value": {
+      "field": "lineItems[0].sku",
+      "to": "FREIGHT"
+    },
+    "confidence": 0.7999999999999999,
+    "usage": 3,
+    "updatedAt": "2025-12-26T17:16:37.250Z"
+  }
+]
