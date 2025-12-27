@@ -1,6 +1,6 @@
 [
   {
-    "id": "215a48b7-7163-418c-905a-a80c3e32c29c",
+    "id": "43706fb2-dbf1-4923-9888-0bf7c6e7b9ce",
     "vendor": "Supplier GmbH",
     "type": "CORRECTION",
     "key": "Leistungsdatum found in rawText",
@@ -8,12 +8,12 @@
       "field": "serviceDate",
       "to": "2024-01-01"
     },
-    "confidence": 1,
-    "usage": 6,
-    "updatedAt": "2025-12-26T17:16:37.228Z"
+    "confidence": 0.7,
+    "usage": 2,
+    "updatedAt": "2025-12-27T18:30:04.802Z"
   },
   {
-    "id": "a4625b5c-4b1a-4e19-a987-0154c11491b2",
+    "id": "55cc635d-349f-49eb-99bc-fd12dc9a78ba",
     "vendor": "Supplier GmbH",
     "type": "CORRECTION",
     "key": "Only matching PO for vendor within 30 days and matching item WIDGET-002",
@@ -21,12 +21,12 @@
       "field": "poNumber",
       "to": "PO-A-051"
     },
-    "confidence": 0.7999999999999999,
-    "usage": 3,
-    "updatedAt": "2025-12-26T17:16:37.227Z"
+    "confidence": 0.6,
+    "usage": 1,
+    "updatedAt": "2025-12-27T18:30:04.801Z"
   },
   {
-    "id": "09038ab5-54f1-45ed-afc8-294a3f002671",
+    "id": "81dbaf05-0cdc-43d6-a34b-09b13478b0eb",
     "vendor": "Parts AG",
     "type": "CORRECTION",
     "key": "Raw text indicates totals already include VAT; extractor overestimated",
@@ -34,12 +34,12 @@
       "field": "grossTotal",
       "to": 2380
     },
-    "confidence": 0.7999999999999999,
-    "usage": 3,
-    "updatedAt": "2025-12-26T17:16:37.234Z"
+    "confidence": 0.6,
+    "usage": 1,
+    "updatedAt": "2025-12-27T18:30:04.804Z"
   },
   {
-    "id": "03b0fe38-f03e-4884-bf24-6d233b414dca",
+    "id": "19dde4a6-a5fd-404b-b26a-1e0ad33d6dff",
     "vendor": "Parts AG",
     "type": "CORRECTION",
     "key": "Recalculated from grossTotal and taxRate",
@@ -47,12 +47,12 @@
       "field": "taxTotal",
       "to": 380
     },
-    "confidence": 0.7999999999999999,
-    "usage": 3,
-    "updatedAt": "2025-12-26T17:16:37.235Z"
+    "confidence": 0.6,
+    "usage": 1,
+    "updatedAt": "2025-12-27T18:30:04.805Z"
   },
   {
-    "id": "f8a04d0e-c5a3-46f6-88db-f75e62a7dbd9",
+    "id": "9f9c1fa9-e7e4-46a1-948c-72b39c6968af",
     "vendor": "Parts AG",
     "type": "CORRECTION",
     "key": "Currency appears in rawText",
@@ -60,12 +60,12 @@
       "field": "currency",
       "to": "EUR"
     },
-    "confidence": 0.7999999999999999,
-    "usage": 3,
-    "updatedAt": "2025-12-26T17:16:37.240Z"
+    "confidence": 0.6,
+    "usage": 1,
+    "updatedAt": "2025-12-27T18:30:04.807Z"
   },
   {
-    "id": "6f18dbca-8c7a-4367-a568-8a142cf86b13",
+    "id": "d18aa88f-68bc-4f23-addf-3206c981d983",
     "vendor": "Freight & Co",
     "type": "CORRECTION",
     "key": "Skonto terms in rawText",
@@ -73,12 +73,12 @@
       "field": "discountTerms",
       "to": "2% Skonto within 10 days"
     },
-    "confidence": 0.7999999999999999,
-    "usage": 3,
-    "updatedAt": "2025-12-26T17:16:37.246Z"
+    "confidence": 0.6,
+    "usage": 1,
+    "updatedAt": "2025-12-27T18:30:04.810Z"
   },
   {
-    "id": "69373bf2-99fc-42ab-84e2-887dcff19127",
+    "id": "1abc0e5b-ffc8-4c43-adcd-12d3b9fe954f",
     "vendor": "Freight & Co",
     "type": "CORRECTION",
     "key": "Vendor uses descriptions (Seefracht/Shipping) that map to FREIGHT",
@@ -86,8 +86,8 @@
       "field": "lineItems[0].sku",
       "to": "FREIGHT"
     },
-    "confidence": 0.7999999999999999,
-    "usage": 3,
-    "updatedAt": "2025-12-26T17:16:37.250Z"
+    "confidence": 0.6,
+    "usage": 1,
+    "updatedAt": "2025-12-27T18:30:04.811Z"
   }
 ]
