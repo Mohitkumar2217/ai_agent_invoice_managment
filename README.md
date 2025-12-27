@@ -1,4 +1,3 @@
-```md
 # AI Agent Invoice Management
 
 A **persistent, memory‑driven AI agent** for invoice automation.  
