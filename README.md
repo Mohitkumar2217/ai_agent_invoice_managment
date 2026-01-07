@@ -70,7 +70,6 @@ Make sure you have the following installed:
    ```bash
    git clone https://github.com/Mohitkumar2217/ai_agent_invoice_managment.git
    cd ai_agent_invoice_managment
-````
 
 2. **Install dependencies**
 
@@ -171,5 +170,3 @@ If you want to make it open source, consider adding a license (MIT/Apache‑2.0,
 ## 🙌 About
 
 Built by **Mohitkumar2217** — an experimental AI agent project focusing on persistent learning for invoice automation and reasoning.
-
---- 
