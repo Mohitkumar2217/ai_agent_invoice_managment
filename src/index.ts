@@ -1,3 +1,4 @@
+import { startUI } from "./uiServer"; // Assuming your code is in startUI.ts
 import { invoices, humanCorrections } from "./loader";
 import { MemoryStore } from "./memoryStore";
 import { AgentEngine } from "./engine";
@@ -22,3 +23,6 @@ for (const inv of invoices) {
     }
   }
 }
+
+// index.ts
+startUI(memory);

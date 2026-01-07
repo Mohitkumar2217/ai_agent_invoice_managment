@@ -8,9 +8,9 @@
       "field": "serviceDate",
       "to": "2024-01-01"
     },
-    "confidence": 0.7,
-    "usage": 2,
-    "updatedAt": "2025-12-27T18:30:04.802Z"
+    "confidence": 1,
+    "usage": 10,
+    "updatedAt": "2026-01-07T12:44:06.566Z"
   },
   {
     "id": "55cc635d-349f-49eb-99bc-fd12dc9a78ba",
@@ -21,9 +21,9 @@
       "field": "poNumber",
       "to": "PO-A-051"
     },
-    "confidence": 0.6,
-    "usage": 1,
-    "updatedAt": "2025-12-27T18:30:04.801Z"
+    "confidence": 0.9999999999999999,
+    "usage": 5,
+    "updatedAt": "2026-01-07T12:44:06.566Z"
   },
   {
     "id": "81dbaf05-0cdc-43d6-a34b-09b13478b0eb",
@@ -34,9 +34,9 @@
       "field": "grossTotal",
       "to": 2380
     },
-    "confidence": 0.6,
-    "usage": 1,
-    "updatedAt": "2025-12-27T18:30:04.804Z"
+    "confidence": 0.9999999999999999,
+    "usage": 5,
+    "updatedAt": "2026-01-07T12:44:06.570Z"
   },
   {
     "id": "19dde4a6-a5fd-404b-b26a-1e0ad33d6dff",
@@ -47,9 +47,9 @@
       "field": "taxTotal",
       "to": 380
     },
-    "confidence": 0.6,
-    "usage": 1,
-    "updatedAt": "2025-12-27T18:30:04.805Z"
+    "confidence": 0.9999999999999999,
+    "usage": 5,
+    "updatedAt": "2026-01-07T12:44:06.571Z"
   },
   {
     "id": "9f9c1fa9-e7e4-46a1-948c-72b39c6968af",
@@ -60,9 +60,9 @@
       "field": "currency",
       "to": "EUR"
     },
-    "confidence": 0.6,
-    "usage": 1,
-    "updatedAt": "2025-12-27T18:30:04.807Z"
+    "confidence": 0.9999999999999999,
+    "usage": 5,
+    "updatedAt": "2026-01-07T12:44:06.573Z"
   },
   {
     "id": "d18aa88f-68bc-4f23-addf-3206c981d983",
@@ -73,9 +73,9 @@
       "field": "discountTerms",
       "to": "2% Skonto within 10 days"
     },
-    "confidence": 0.6,
-    "usage": 1,
-    "updatedAt": "2025-12-27T18:30:04.810Z"
+    "confidence": 0.9999999999999999,
+    "usage": 5,
+    "updatedAt": "2026-01-07T12:44:06.576Z"
   },
   {
     "id": "1abc0e5b-ffc8-4c43-adcd-12d3b9fe954f",
@@ -86,8 +86,8 @@
       "field": "lineItems[0].sku",
       "to": "FREIGHT"
     },
-    "confidence": 0.6,
-    "usage": 1,
-    "updatedAt": "2025-12-27T18:30:04.811Z"
+    "confidence": 0.9999999999999999,
+    "usage": 5,
+    "updatedAt": "2026-01-07T12:44:06.579Z"
   }
 ]

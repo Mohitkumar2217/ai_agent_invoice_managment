@@ -32,9 +32,10 @@ export class MemoryStore {
         vendor,
         type,
         key,
-        value,
+        value, 
+        context: "",
         confidence: 0.6,
-        usage: 1,
+        usage: 1, 
         updatedAt: new Date().toISOString()
       });
     }

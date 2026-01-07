@@ -16,7 +16,8 @@ export interface MemoryEntry {
   confidence: number;
 }
 
-export interface Memory {
+export interface Memory { 
+  context: string;
   id: string;
   vendor: string;
   type: MemoryType;
